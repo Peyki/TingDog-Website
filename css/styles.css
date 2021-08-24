@@ -1,0 +1,172 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.sub-heading {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Colors */
+.colored-background {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-background {
+  background-color: #fff;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 65%;
+  /* (daha az yer kapladi) */
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 20px;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+/* Download Button  */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  padding: 4.5%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.features-i {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-i:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Press Section  */
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-columns {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+/* Call to Action */
+.social-icons {
+  margin: 20px 10px;
+}
+
+/* Media Query  */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
